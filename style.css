@@ -1,0 +1,837 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: "poppins";
+}
+.container{
+    width: 1180px;
+    margin: 0 auto;
+}
+.nav1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.uppernav-left ul{
+    display: flex;
+    gap: 30px;
+}
+.uppernav-left ul li a{
+    text-decoration: none;
+    color: black;
+}
+.uppernav-left ul li a:hover{
+    color: #007bff;
+}
+.uppernav-right ul{
+    display: flex;
+    gap: 30px;
+}
+.uppernav-right ul li a{
+    text-decoration: none;
+    color: black;
+}
+.uppernav-right ul li a:hover{
+    color: #007bff;
+}
+hr{
+    margin-top: 5px;
+}
+/* Upper navbar end */
+
+/* Lower Navbar starts here */
+.nav2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0 10px 0;
+}
+.logo img{
+    cursor: pointer;
+}
+.nav2 .menu ul{
+    display: flex;
+    gap: 40px;
+}
+.nav2 .menu ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.nav2 .menu ul li a:hover{
+    color: #007bff;
+}
+.home, .pages, .blogs{
+    position: relative;
+}
+.home-child, .pages-child, .blogs-child1{
+    display: flex;
+    flex-direction: column ;
+    gap: 8px !important;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 180px;
+    padding: 10px 10px;
+    visibility: hidden;
+    box-shadow: 0 0 20px #d9d9da;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.home:hover .home-child,
+.pages:hover .pages-child,
+.blogs:hover .blogs-child1 {
+    visibility: visible;
+}
+
+.appointment-btn button{
+    padding: 12px 40px;
+    background-color: #007bff;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s ease-out all;
+}
+.appointment-btn button:hover{
+    background-color: #1c1c1d;
+}
+
+/* Lower Navbar Ends here */
+
+/* Here Section Starts Here */
+
+.hero-section{
+    background: url("img/slider2.jpg") no-repeat center/cover;
+    padding: 210px 0;
+    position: relative;
+}
+
+.hero-left{
+    max-width: 60%;
+}
+.hero-left h1{
+    font-size: 2.7rem;
+    font-weight: 700;
+}
+.hero-left h1 span{
+    color: #007bff;
+}
+.hero-left p{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.hero-btn button{
+    padding: 13px 40px;
+    border: none;
+    border-radius: 5px;
+    transition: .3s ease all ;
+
+}
+.hero-btn .btn1{
+    background-color: #007bff;
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+}
+.hero-btn .btn2{
+    background-color: #1c1c1d;
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+}
+.hero-btn .btn1:hover{
+    background-color: #1c1c1d;
+}
+.hero-btn .btn2:hover{
+    background-color: #007bff;
+}
+
+.hero-section .card-main{
+    position: absolute;
+    max-width: 1180px;
+    display: flex;
+    bottom: -18%;
+    gap: 25px;
+}
+.hero-section .card{
+    width: 30%;
+    background-color: #3290f5;
+    color: white;
+    padding: 30px 20px;
+    border-radius: 10px;
+}
+.hero-section .card:hover{
+    background-color: #007bff;
+    box-shadow: 5px 5px 20px #71b3fa;
+}
+.hero-section .card h5{
+    font-weight: normal;
+}
+.hero-section .card h3{
+    padding: 10px 0;
+    font-size: 1.3rem;
+}
+.hero-section .card p{
+    font-weight: 200;
+}
+.hero-section .card h4{
+    padding-top: 15px;
+}
+.hero-section .card h4 a{
+    text-decoration: none;
+    color: white;
+}
+
+/* Hero Section Ends Here */
+
+/* Lower hero section starts here */
+.hero-lower-text{
+    margin: 20% auto 5% auto;
+    width: 50%;
+    text-align: center;
+}
+.hero-lower-text h2{
+    font-size: 2rem;
+    padding-bottom: 10px;
+}
+.hero-lower-text p{
+    font-weight: 200;
+}
+
+/* Emergency Section strts here */
+.emergency-sec{
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px 0;
+}
+.emergency-sec i{
+    font-size: 3rem;
+    margin-bottom: 20px;
+    height: 120px;
+    width: 120px;
+    line-height: 120px;
+    border: 1px solid #737374;
+    border-radius: 50%;
+    color: #007bff;
+    transition: background-color .3s ease;
+}
+.emergency1:hover i,
+.emergency2:hover i,
+.emergency3:hover i{
+    background-color: #4297f3;
+    color: white;
+}
+/* Emergency Section Ends here */
+
+/* Count section Starts here */
+
+.count-section {
+    position: relative;
+    background: url("img/fun-bg.jpg") no-repeat center/cover;
+    padding: 100px 0;
+    margin-top: 6%;
+    margin-bottom: 10%;
+    overflow: hidden;
+}
+
+.count-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #4da2fd;
+    opacity: .8;
+}
+
+.count-sec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.count-sec .count{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.count-sec .count i{
+    font-size: 2rem;
+    color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    text-align: center;
+    transition: background-color .3s ease;
+    z-index: 1;
+}
+.count-sec .count i:hover{
+    background-color: #fff;
+    color: #007bff;
+}
+.count-sec .count .count-text{
+    color: white;
+    z-index: 1;
+}
+.count-sec .count .count-text h3{
+    font-size: 2rem;
+}
+
+/* Count section Ends here */
+
+/* Lower count section starts here */
+.count-lower-text{
+    margin: 0 auto 5% auto;
+    width: 50%;
+    text-align: center;
+}
+.count-lower-text h2{
+    font-size: 2rem;
+    padding-bottom: 10px;
+}
+.count-lower-text p{
+    font-weight: 200;
+}
+/* Lower count section Ends here */
+/* Video Section starts here */
+.video-section{
+    display: flex;
+    margin: 6% 0;
+}
+.text-video{
+    width: 50%;
+    padding-right: 20px;
+}
+.text-video h2{
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.text-video p{
+    font-weight: 200;
+}
+.text-video .text-flex{
+    display: flex;
+    gap: 40px;
+    margin-top: 40PX;
+}
+.text-flex ul li{
+    font-weight: 200;
+    padding-top: 10px;
+}
+.text-flex ul li i{
+    padding-right: 15px;
+    color: #4297f3;
+}
+.video {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('img/video-bg.jpg') no-repeat center;
+    background-size: cover;
+    aspect-ratio: 16 / 9;
+    position: relative;
+}
+
+.video a {
+    color: #fff;
+    font-size: 2rem;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background: rgba(2, 103, 255, 0.7);
+    position: absolute;
+    transition:.3s ease;
+}
+.video a:hover{
+    height: 5.4rem;
+    width: 5.4rem;
+}
+/* Video Section starts here */
+/* Emergency madical care section starts here */
+.medical-care-main{
+    position: relative;
+    background: url(img/call-bg.jpg) no-repeat center/cover;
+    padding: 120px 0;
+    overflow: hidden;
+    z-index: 0;
+    margin-bottom: -5%;
+}
+.medical-care-main::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #007bff;
+    opacity: .7;
+    z-index: -1;
+}
+.medical-care{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    z-index: 1;
+}
+.medical-care h2{
+    font-size: 2.2rem;
+    padding-bottom: 10px;
+}
+.medical-care .medical-care-btn{
+    margin-top: 30px;
+}
+.medical-care .medical-care-btn button{
+    padding: 12px 40px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 300;
+    font-size: 1rem;
+}
+.medical-care-btn .btn1{
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 1rem;
+    font-weight: 300;
+    transition: background-color .3s ease;
+}
+.medical-care-btn .btn1:hover{
+    background-color: #007bff;
+    color: white;
+    border: 1px solid white;
+}
+.medical-care-btn .btn2{
+    background-color: transparent;
+    border: 1px solid white !important;
+    color: white;
+    transition: background-color .3s ease;
+}
+.medical-care-btn .btn2:hover{
+    background-color: white;
+    color: #000000;
+}
+
+/* Emergency madical care section Ends here */
+
+/* Image section starts here */
+.img-section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: -10%;
+}
+
+.img-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+.img-wrapper img {
+    width: 450px;
+    height: 300px;
+    object-fit: cover;
+    transition: opacity .3s ease;
+}
+.img-wrapper img:hover{
+    opacity: .3;
+}
+
+.view-details {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.view-details:hover{
+    background-color: white;
+    color: black;
+}
+
+.img-wrapper:hover .view-details {
+    opacity: 1;
+}
+
+/* Image section Ends here */
+
+/* Service section starts here */
+.service-section{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 40px;
+    margin-bottom: -8%;
+}
+.service-section .services{
+    display: flex;
+    gap: 30px;
+}
+.service-section .services i{
+    font-size: 2.2rem;
+    color: #007bff;
+}
+.service-section .services .services-text h3{
+    font-size: 1.7rem;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+.service-section .services .services-text p{
+    font-weight: 500;
+    opacity: .6;
+}
+/* Service section ends here */
+
+/* Buying Card section starts here */
+.buying-card-main{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 30px;
+}
+.buying-cards{
+    border: 1px solid rgb(189, 188, 188);
+    background-color: white;
+    padding: 60px 25px 25px 40px;
+    margin-bottom: 8%;
+}
+.buying-card-bottom{
+    display: flex;
+    gap: 80px;
+}
+.bottom-right{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #007bff;
+}
+.buying-cards{
+    box-shadow: 10px 10px 10px #a0c9f5;
+    border: none;
+}
+.buying-cards:hover{
+    box-shadow: #007bff;
+}
+.buying-card-top i{
+    font-size: 4rem;
+    padding-bottom: 20px;
+    color: #007bff;
+}
+.buying-card-top h2{
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+.buying-card-top p{
+    font-size: 2.5rem; 
+    color: #007bff;
+}
+.buying-card-bottom{
+    margin-top: 30px;
+}
+.buying-card-bottom p{
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 2rem;
+}
+.buying-card-bottom i{
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+}
+.buying-cards .buy-btn{
+    margin-top: 30px;
+}
+.buying-cards .buy-btn button{
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 5px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    font-size: 1rem;
+    transition: background-color .3s ease;
+
+}
+.buying-cards .buy-btn button:hover{
+    background-color: #fff;
+    border: 1px solid #007bff;
+    color: black;
+}
+/* Buying Card section Ends here */
+
+/* Image card section starts here */
+.iamge-card{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 30px;
+    transition: .3s ease;
+    margin-bottom: 10%;
+}
+.iamge-card .cards{
+    box-shadow: 0 0 10px rgb(223, 223, 223);
+}
+.iamge-card .cards:hover{
+    box-shadow: 1px 1px 10px #71b3fa;
+}
+.iamge-card .cards img{
+    width: 100%;
+}
+.iamge-card .cards .card-txt{
+    padding: 20px 20px;
+}
+.cards .card-txt button{
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #429bfa;
+    color: white;
+    margin-bottom: 25px;
+}
+.cards .card-txt h2 a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.cards .card-txt h2 a:hover{
+    color: #007bff;
+}
+.cards .card-txt p{
+    margin-top: 20px;
+    font-weight: 300;
+    font-size: 1rem;
+    letter-spacing: .1px;
+}
+/* Image card section ends here */
+
+/* Client section starts here */
+.client{
+    position: relative;
+    background: url(img/client-bg.jpg) no-repeat center/cover;
+    overflow: hidden;
+    z-index: 0;
+}
+.client::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #007bff;
+    opacity: .6;
+    z-index: -1;
+}
+.client-sec{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 80px;
+    padding: 100px 0;
+}
+.client-sec img{
+    height: 50px;
+}
+
+/* Client section Ends here */
+
+/* Form section starts here */
+.form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+}
+.form-sec{
+    width: 100%;
+    padding: 30px 20px;
+}
+.form-inside{
+    display: flex;
+    gap: 30px;
+}
+.inside-left, .inside-right{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.form-inside input{
+    width: 220px;
+    padding: 12px 20px;
+    border: 1px solid #d9d9da;
+    border-radius: 5px;
+}
+.form-sec textarea{
+    box-sizing: border-box;
+    width: 89%;
+    height: 200px;
+    margin-top: 30px;
+    border: 1px solid #d9d9da;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+.form-sec button{
+    margin-top: 20px;
+    padding: 12px 40px;
+    border: none;
+    background-color: #3290f5;
+    color: white;
+    border-radius: 5px;
+    transition: background-color .3s ease;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+.form-sec button:hover{
+    background-color: #1c1c1d;
+    color: white;
+
+}
+/* Form section Ends here */
+
+/* Sign up section starts here */
+.signup-section{
+    background-color: #dbecff;
+    padding: 30px 0;
+}
+.sign-up{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sign-up-left{
+    width: 50%;
+}
+.sign-up-left h2{
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.sign-up-right{
+    display: flex;
+    flex-direction: row;
+}
+.sign-up input{
+    width: 350px;
+    height: 50px;
+    padding: 8px 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.sign-up-right{
+    display: flex;
+    gap: 10px;
+}
+.sign-up-right button{
+    padding: 10px 60px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: #3290f5;
+    color: white;
+    cursor: pointer;
+    transition: background-color .3s ease;
+
+}
+.sign-up-right button:hover{
+    background-color: #1c1c1d;
+}
+/* Sign up section Ends here */
+/* Footer section starts here */
+.footer-sec{
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 100px 0;
+}
+.about-us, .quic-link, .open-hrs, .newsletter{
+    width: 23%;
+}
+.footer-sec h3{
+    font-size: 1.3rem;
+    font-weight: 450;
+    margin-bottom: 30px;
+}
+.footer-sec p{
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+.about-us .social-media{
+    display: flex;
+    gap: 20px;
+}
+.about-us .social-media i{
+    font-size: 2rem;
+    cursor: pointer;
+}
+.about-us .social-media i:hover{
+    color: #1c1c1d;
+}
+.quick-link-in{
+    display: flex;
+    gap: 30px;
+}
+.quick-link-left, .quick-link-right{
+    display: flex;
+    flex-direction: column;
+}
+.quic-link a{
+    color: white;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+.quic-link a:hover{
+    color: #1c1c1d;
+    text-decoration: underline;
+}
+.open-hrs h4{
+    font-weight: 400;
+}
+.news-email{
+    background-color: #fff;
+    color: #1c1c1d;
+    border-radius: 5px;
+}
+.news-email input{
+    width: 80%;
+    border: 1px solid white;
+    border-radius: 5px;
+    height: 50px;
+    padding: 0 5px;
+    background-color: #1b68b9;
+}
+.news-email i{
+    padding: 0 8px;
+    cursor: pointer;
+}
+
+/* Footer section Ends here */
+
+.copyright{
+    text-align: center;
+    padding: 10px 0;
+}
