@@ -53,6 +53,7 @@ hr{
 .nav2 .menu ul{
     display: flex;
     gap: 40px;
+    z-index: 2;
 }
 .nav2 .menu ul li a {
     text-decoration: none;
